@@ -23,6 +23,14 @@ public class SynchronizedBankAccount {
                 balance += amount;
             }
         }
-
     }
+/*
+    same as above but with method level synchronization
+
+    public synchronized void deposit(int amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+ */
 }

@@ -11,6 +11,8 @@ This is a demo where we test:
 - synchronized
 - AtomicInteger
 - ReentrantLock
+- Virtual Threads
+- volatile
 
 ## Requirements
 
